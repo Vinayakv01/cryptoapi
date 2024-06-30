@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Enable CORS with specific origin
 app.use(cors({
-  origin: ['http://192.168.1.14:5173', 'http://localhost:5173', 'http://100.107.70.7:5173', 'https://crypto-seven-vert.vercel.app'],
+  origin: ['https://crypto-vert-eight.vercel.app'],
   credentials: true,
 }));
 
